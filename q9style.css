@@ -1,0 +1,104 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, header, nav, main, section, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Global styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3508.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714953600&semt=ais');
+    background-size: cover;
+    color: #333;
+    align-content: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Home page styles */
+#introduction {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Heritage page styles */
+#heritage-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+
+/* Dedicated heritage site page styles */
+#site-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Hotel booking page styles */
+#booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Gallery page styles */
+#image-gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+#image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}

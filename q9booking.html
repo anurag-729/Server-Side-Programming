@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="q9style.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+        <img src="indore2-removebg-preview.png" alt="indore-city-logo" 
+        style="height: 70px; width: 70px; position: fixed; float: left; top: 17px; left: 15px;">
+
+        <img src="indore-removebg-preview.png" alt="indore-city-logo" 
+        style="height: 100px; width: 100px; position: fixed; float: right; top: 1px; right: 1px;">
+        <nav>
+            <a href="q9index.html">Home</a>
+            <a href="q9heritage.html">Heritage</a>
+            <a href="q9booking.html">Hotel Booking</a>
+            <a href="q9gallery.html">Gallery</a>
+            <a href="q9contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section id="booking-form">
+            <h2>Book Your Stay</h2>
+            <br>
+            <form action="#" method="post">
+                <!-- Hotel booking form -->
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone" required>
+            <br><br>
+
+            <label for="checkin">Check-in Date:</label><br>
+            <input type="date" id="checkin" name="checkin" required>
+            <br><br>
+
+            <label for="checkout">Check-out Date:</label><br>
+            <input type="date" id="checkout" name="checkout" required>
+            <br><br>
+
+            <label for="room-type">Room Type:</label><br>
+            <select id="room-type" name="room-type" required>
+                <option value="">Select Room Type</option>
+                <option value="single">Single</option>
+                <option value="double">Double</option>
+                <option value="suite">Suite</option>
+            </select>
+            <br><br>
+
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">
+        
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> Indore : The Cleanest City of India </p>
+    </footer>
+</body>
+</html>
