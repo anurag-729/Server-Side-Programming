@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="stylesheet" href="q8style.css">
+</head>
+<body>
+    <header>
+        <h1>Institute of Engineering & Technology</h1>
+        <br>
+        <h1>Devi Ahilya Vishwaviyalaya, Indore</h1>
+        
+        <img src="davv.png" alt="davv-logo" 
+        style="height: 180px; width: 180px; position: fixed; float: right; top: 1px; right: 1px;">
+        <br>
+        <nav>
+            <a href="q8index.html">Home</a>
+            <a href="q8academics.html">Academics</a>
+            <a href="q8admission.html">Admission</a>
+            <a href="q8gallery.html">Gallery</a>
+            <a href="q8contact.html">Contact Us</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="booking-form">
+            <h2>Admission Form</h2>
+            <br>
+            <form action="#" method="post">
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="address">Address: </label><br>
+            <input type="text" id="address" name="address" required>
+            <br><br>
+
+            <label for="photo">Upload JEE Scorecard:</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+            <br><br>
+
+            <label for="branch"> Preferred Branch:</label><br>
+            <select id="branch" name="branch" required>
+                <option value="">Select Branch</option>
+                <option value="Computer Engineering">Computer Engineering</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Electronics & Telecommunication">Electronics & Telecommunication</option>
+                <option value="Electrical & Instrumentation">Electrical & Instrumentation</option>
+                <option value="Civil Engineering">Civil Engineering</option>
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+            </select>
+            <br><br>
+
+            <label for="mobile" >Mobile:</label>
+            <input type="tel" id="mobile" name="mobile" 
+            value="+91"><br><br>
+
+            <label for="extra-curricular">Extra-curricular Achievements:</label><br>
+            <textarea id="extra-curricular" name="extra-curricular" rows="5"></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">
+        
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
